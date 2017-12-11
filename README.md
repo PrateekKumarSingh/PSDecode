@@ -12,7 +12,7 @@ PowerShell modules that decodes Error codes, exit codes, port numbers, HTTP Stat
  Install-Module PSDecode -scope CurrentUser
  ```
 
- ![](https://raw.githubusercontent.com/PrateekKumarSingh/Gridify/master/Images/Installation_v5.jpg)
+ ![]()
 
  * [Requires Elevation] Install for Everyone (computer PowerShell Modules folder)
  ```PowerShell
