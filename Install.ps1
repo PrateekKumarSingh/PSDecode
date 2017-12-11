@@ -65,6 +65,7 @@ Try
     if (-not (Test-Path $InstallDirectory))
     {
         New-Item -Path $InstallDirectory -ItemType Directory -EA Stop -Verbose | Out-Null
+        New-Item -Path $InstallDirectory\Data -ItemType Directory -EA Stop -Verbose | Out-Null
         New-Item -Path $InstallDirectory\Source -ItemType Directory -EA Stop -Verbose | Out-Null
         Write-Verbose "$ModuleName created module folder '$InstallDirectory'"
     }
