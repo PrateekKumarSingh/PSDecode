@@ -1,6 +1,8 @@
 PSDCode
 -
-PowerShell modules that decodes Error codes, exit codes, port numbers, HTTP Statuses and more.
+PowerShell based module that can decode 2700+ System and Internet Error codes, all port numbers [0 to 65535], HTTP Statuses and more.
+
+
 
  Installation
  -
