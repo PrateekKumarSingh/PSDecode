@@ -4,10 +4,10 @@ PowerShell based module that can decode System Errors, Exit codes, port numbers,
 This module can be used to quick lookup Error descriptions, to add verbosity to your custom error messages and for a better Error Handling, Investigation and Analysis.
 
 Type| Range | Count | Comments
----------|----------|---------|---------
- System Errors | 0 - 15999 | 2764 | Windows System errors and Exit Codes
- Internet Errors | 12000 - 12175 | 114 | Subset of System Errors
- Port Numbers | 0 - 65535 | 56506 | Registered and Unregistered ports
+:---------|:----------:|:---------:|:---------
+ System Errors | 0-15999 | 2764 | Windows System Errors and Exit Codes
+ Internet Errors | 12000-12175 | 114 | Subset of System Errors
+ Port Numbers | 0-65535 | 56506 | Registered and Unregistered ports
  HTTP Status Codes | 100-599 | 63 | Status codes - Informational, Success, Redirection, Client/Server Error
  MAC Vendor Codes | N/A | 23602 | 16754 Manufacturers mapped to 23602 MAC Vendor bits
 
