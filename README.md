@@ -4,10 +4,10 @@ PowerShell based module that can decode 2700+ System and Internet Error codes, a
 
 
 Type| Range | Count | Comments
----------|----------|---------
+---------|----------|---------|---------
  System Errors | 0 - 15999 | 2764 | 
  Internet Errors | 12000 - 12175 | 114 | Subset of System Errors
- Ports | 0 - 65535 | C3
+ Ports | 0 - 65535 | 56506 | 
 
  Installation
  -
