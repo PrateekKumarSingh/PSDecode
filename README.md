@@ -10,7 +10,7 @@ Type| Range | Count | Comments
  Port Numbers | 0 - 65535 | 56506 | Registered and Unregistered ports
  HTTP Status Codes | 100-599 | 63 | Status codes - Informational, Success, Redirection, Client/Server Error
 
- Installation
+ ### Installation
  
  #### [PowerShell V5](https://www.microsoft.com/en-us/download/details.aspx?id=50395) and Later
  You can install the `Gridify` module directly from the PowerShell Gallery
