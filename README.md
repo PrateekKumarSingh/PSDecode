@@ -3,6 +3,11 @@ PSDCode
 PowerShell based module that can decode 2700+ System and Internet Error codes, all port numbers [0 to 65535], HTTP Statuses and more.
 
 
+Type| Range | Count | Comments
+---------|----------|---------
+ System Errors | 0 - 15999 | 2764 | 
+ Internet Errors | 12000 - 12175 | 114 | Subset of System Errors
+ Ports | 0 - 65535 | C3
 
  Installation
  -

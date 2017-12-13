@@ -1,6 +1,6 @@
 # Dot Sourcing files
 
-Get-ChildItem "$PSScriptRoot\Source\" | Where-Object FullName -Like "*Get-*" | ForEach-Object {
+Get-ChildItem "$PSScriptRoot\Source\Public" | Where-Object FullName -Like "*Get-*" | ForEach-Object {
     . $_.FullName
 }
 

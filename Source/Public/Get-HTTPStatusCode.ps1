@@ -57,7 +57,7 @@ Function Get-HTTPStatusCode
     {
         Try
         {
-            $Data = Import-csv "$(Split-Path $PSScriptRoot)\Data\HTTPStatusCode.csv"
+            $Data = Import-csv "$(Split-Path (Split-Path $PSScriptRoot))\Data\HTTPStatusCode.csv"
         }
         Catch
         {

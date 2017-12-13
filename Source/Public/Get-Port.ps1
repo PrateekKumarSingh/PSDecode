@@ -57,7 +57,7 @@ Function Get-Port
     {
         Try
         {
-            $Data = Import-csv "$(Split-Path $PSScriptRoot)\Data\Ports.csv"
+            $Data = Import-csv "$(Split-Path (Split-Path $PSScriptRoot))\Data\Ports.csv"                        
         }
         Catch
         {
@@ -68,7 +68,17 @@ Function Get-Port
     {
         $Port | ForEach-Object {
             $pv = $_
-            $Data.Where( {$_.port -eq $pv})
+            $Data.ForEach({
+                If($_.port -like "*-*"){
+                    [int]$Start, [int]$End = $_.port -split '-'
+                    If($pv -in $($Start..$End)){
+                        $_
+                    }
+                }
+                elseif($_.port -eq $pv) {
+                    $_
+                }                
+            })
         }
     }
     End

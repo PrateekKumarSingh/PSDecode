@@ -32,7 +32,7 @@ Function Get-ErrorDetail
     {
         Try
         {
-            $Data = Import-csv "$(Split-Path $PSScriptRoot)\Data\ExitCode.csv"
+            $Data = Import-csv "$(Split-Path (Split-Path $PSScriptRoot))\Data\ErrorCode.csv"
         }
         Catch
         {

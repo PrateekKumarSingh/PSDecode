@@ -48,7 +48,7 @@ Function Get-MACVendor
     {
         Try
         {
-            $Data = Import-csv "$(Split-Path $PSScriptRoot)\Data\MACReference.csv"
+            $Data = Import-csv "$(Split-Path (Split-Path $PSScriptRoot))\Data\MACReference.csv"
         }
         Catch
         {
