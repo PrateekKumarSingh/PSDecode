@@ -5,12 +5,13 @@ PowerShell based module that can decode 2700+ System and Internet Error codes, a
 
 Type| Range | Count | Comments
 ---------|----------|---------|---------
- System Errors | 0 - 15999 | 2764 | 
+ System Errors | 0 - 15999 | 2764 | Windows System errors and Exit Codes
  Internet Errors | 12000 - 12175 | 114 | Subset of System Errors
- Ports | 0 - 65535 | 56506 | 
+ Port Numbers | 0 - 65535 | 56506 | Registered and Unregistered ports
+ HTTP Status Codes | 100-599 | 63 | Status codes - Informational, Success, Redirection, Client/Server Error
 
  Installation
- -
+ 
  #### [PowerShell V5](https://www.microsoft.com/en-us/download/details.aspx?id=50395) and Later
  You can install the `Gridify` module directly from the PowerShell Gallery
 
