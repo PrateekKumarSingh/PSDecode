@@ -12,7 +12,7 @@
     RootModule        = 'PSDecode.psm1'
 
     # Version number of this module.
-    ModuleVersion     = '1.0.0'
+    ModuleVersion     = '0.9.0'
 
     # Supported PSEditions
     # CompatiblePSEditions = @()
@@ -30,7 +30,16 @@
     Copyright         = '(c) 2017 Prateek Singh All rights reserved.'
 
     # Description of the functionality provided by this module
-    Description       = ""
+    Description       = "PSDecode - A PowerShell based module that can decode System Errors, Exit codes, port numbers, HTTP Statuses and more. 
+This module can be used to quick lookup Error descriptions, to add verbosity to your custom error messages and for a better Error Handling, Investigation and Analysis.
+
+System Errors : Windows System Errors and Exit Codes [Total = 2764] 
+Internet Errors	: Subset of System Errors [Total = 114]
+Port Numbers : Registered and Unregistered ports [Total = 56506]
+HTTP Status Codes : Informational, Success, Redirection, Client/Server Error status codes [Total = 63]
+MAC Vendor Codes : Manufacturers mapped to 23602 MAC Vendor bits [Total = 16754]
+
+"
 
     # Minimum version of the Windows PowerShell engine required by this module
     # PowerShellVersion = ''
@@ -95,7 +104,7 @@
         PSData = @{
 
             # Tags applied to this module. These help with module discovery in online galleries.
-            Tags         = @('', '')
+            Tags         = @('Errors', 'StatusCode','MAC','Port','ExitCode','System')
 
             # A URL to the license for this module.
             # LicenseUri = ''
