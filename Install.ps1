@@ -25,14 +25,14 @@ Try
     $Files = @(
         'PSDecode.psd1',
         'PSDecode.psm1',
-        'Data/ExitCode.csv',
+        'Data/ErrorCode.csv',
         'Data/HTTPStatusCode.csv',
         'Data/MACReference.csv',
         'Data/Ports.csv',
-        'Source/Get-ErrorDetail.ps1',
-        'Source/Get-HTTPStatusCode.ps1',
-        'Source/Get-MACVendor.ps1',
-        'Source/Get-Port.ps1'         
+        'Source/Public/Get-ErrorDetail.ps1',
+        'Source/Public/Get-HTTPStatusCode.ps1',
+        'Source/Public/Get-MACVendor.ps1',
+        'Source/Public/Get-Port.ps1'         
     )
 }
 Catch
@@ -66,7 +66,7 @@ Try
     {
         New-Item -Path $InstallDirectory -ItemType Directory -EA Stop -Verbose | Out-Null
         New-Item -Path $InstallDirectory\Data -ItemType Directory -EA Stop -Verbose | Out-Null
-        New-Item -Path $InstallDirectory\Source -ItemType Directory -EA Stop -Verbose | Out-Null
+        New-Item -Path $InstallDirectory\Source\Public -ItemType Directory -EA Stop -Verbose | Out-Null
         Write-Verbose "$ModuleName created module folder '$InstallDirectory'"
     }
 
