@@ -1,4 +1,4 @@
-PSDCode
+PSDecode
 -
 PowerShell based module that can decode System Errors, Exit codes, port numbers, HTTP Statuses and more.
 This module can be used to quick lookup Error descriptions, to add verbosity to your custom error messages and for a better Error Handling, Investigation and Analysis.
@@ -13,19 +13,19 @@ Type| Range | Count | Comments
 Use-Case
 -
 
-* Decode Exit Codes and Windows System errors
+* **Decode Exit Codes and Windows System errors**
 
  ![](https://raw.githubusercontent.com/PrateekKumarSingh/PSDecode/master/Media/Get-ErrorDetail.jpg)
 
-* List all 'Listening' ports and service with description
+* **List all 'Listening' ports and service with description**
 
  ![](https://raw.githubusercontent.com/PrateekKumarSingh/PSDecode/master/Media/Get-Port.jpg)
 
-* Identify MAC vendors for Network related troubleshooting
+* **Identify MAC vendors for Network related troubleshooting**
 
  ![](https://raw.githubusercontent.com/PrateekKumarSingh/PSDecode/master/Media/Get-MACVendor.jpg)
 
-* Adds verbosity to you HTTP requests
+* **Adds verbosity to you HTTP requests**
 
  ![](https://raw.githubusercontent.com/PrateekKumarSingh/PSDecode/master/Media/Get-HTTPStatusCode.jpg)
 
