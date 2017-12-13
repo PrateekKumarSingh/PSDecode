@@ -9,6 +9,7 @@ Type| Range | Count | Comments
  Internet Errors | 12000 - 12175 | 114 | Subset of System Errors
  Port Numbers | 0 - 65535 | 56506 | Registered and Unregistered ports
  HTTP Status Codes | 100-599 | 63 | Status codes - Informational, Success, Redirection, Client/Server Error
+ MAC Vendor Codes | N/A | 23602 | 16754 Manufacturers mapped to 23602 MAC Vendor bits
 
 Use-Case
 -
