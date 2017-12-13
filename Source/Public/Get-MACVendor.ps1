@@ -33,6 +33,8 @@ General notes
 #> 
 Function Get-MACVendor
 {
+    [cmdletbinding()]
+    [alias("macv")]
     Param(
         [Parameter(
             Mandatory = $true,

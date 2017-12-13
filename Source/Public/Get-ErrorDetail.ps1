@@ -23,6 +23,7 @@ General notes
 Function Get-ErrorDetail
 {
     [cmdletbinding()]
+    [alias("err")]
     Param(
         [Parameter(ValueFromPipeline = $true)] 
         [String] $ErrorCode
