@@ -3,6 +3,8 @@ PSDecode
 PowerShell based module that can decode System Errors, Exit codes, port numbers, HTTP Statuses and more.
 This module can be used to quick lookup Error descriptions, to add verbosity to your custom error messages and for a better Error Handling, Investigation and Analysis.
 
+ ![](https://raw.githubusercontent.com/PrateekKumarSingh/PSDecode/master/Media/Animation.gif)
+
 Type| Range | Count | Comments
 :---------|:----------:|:---------:|:---------
  System Errors | 0-15999 | 2764 | Windows System Errors and Exit Codes
