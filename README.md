@@ -4,6 +4,8 @@ PowerShell based module that can decode System Errors, Exit codes, port numbers,
 This module can be used to quick lookup Error descriptions, to add verbosity to your custom error messages and for a better Error Handling, Investigation and Analysis.
 
  ![](https://raw.githubusercontent.com/PrateekKumarSingh/PSDecode/master/Media/Animation.gif)
+ 
+Technically the module offers a set of cmdlets that query a database of Error/Exit codes, port numbers, and MAC addresses which totals to 83049 individual records as of now when I’m writing this.
 
 Type| Range | Count | Comments
 :---------|:----------:|:---------:|:---------
