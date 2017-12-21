@@ -30,6 +30,7 @@ Try
         'Data/MACReference.csv',
         'Data/Ports.csv',
         'Source/Public/Get-ErrorDetail.ps1',
+        'Source/Public/Get-HResult.ps1',
         'Source/Public/Get-HTTPStatusCode.ps1',
         'Source/Public/Get-MACVendor.ps1',
         'Source/Public/Get-Port.ps1'         
