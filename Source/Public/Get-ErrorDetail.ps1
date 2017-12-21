@@ -26,7 +26,7 @@ Function Get-ErrorDetail
     [alias("err")]
     Param(
         [Parameter(ValueFromPipeline = $true)] 
-        [String] $ErrorCode
+        [int32] $ErrorCode
     )
 
     Begin
