@@ -1,7 +1,7 @@
 PSDecode
 -
 PowerShell based module that can decode System Errors, Exit codes, port numbers, HTTP Statuses and more.
-This module can be used to quick lookup Error descriptions, to add verbosity to your custom error messages and for a better Error Handling, Investigation and Analysis. Read more on [my blog about](https://ridicurious.com/2017/12/14/decoding-errors-http-return-codes-using-powershell/) this module and how I web scraped the error code data.
+This module can be used to quick lookup Error descriptions, to add verbosity to your custom error messages and for a better Error Handling, Investigation and Analysis. Read more on [my blog](https://ridicurious.com/2017/12/14/decoding-errors-http-return-codes-using-powershell/) about this module and how I web scraped the error code data.
 
 
 
